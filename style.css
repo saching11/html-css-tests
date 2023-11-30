@@ -3,3 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.pie-chart {
+    width: 200px; /* Set your desired width */
+    height: 200px; /* Set your desired height */
+    border-radius: 50%;
+    background: conic-gradient(
+        #f00 0% 25%,
+        #0f0 25% 30%,
+        #00f 30% 70%,
+        #ff0 70% 80%,
+        #bbb 80% 100%,
+    );
+    
+}
